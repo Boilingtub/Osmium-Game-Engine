@@ -1,0 +1,5 @@
+use osmium::run;
+
+fn main() {
+    pollster::block_on(run());
+}
